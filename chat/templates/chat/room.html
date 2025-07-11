@@ -9,6 +9,12 @@
 
 <script>
     const roomName = "{{ room_name }}";
+
+    let username = prompt("Enter your name:");
+    if (!username) {
+        username = "Anonymous";
+    }
+
     const ws = new WebSocket(
         'ws://' + window.location.host + '/ws/chat/' + roomName + '/'
     );
@@ -21,9 +27,10 @@
     document.querySelector('#chat-message-submit').onclick = function() {
         const msgInput = document.querySelector('#chat-message-input');
         const message = msgInput.value;
-        ws.send(JSON.stringify({ 'message': message }));
+        ws.send(JSON.stringify({ 'message': message, 'username': username }));
         msgInput.value = '';
     };
 </script>
+
 </body>
 </html>
