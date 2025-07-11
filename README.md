@@ -14,8 +14,6 @@ A blazing-fast WebSocket-based real-time chat application built with **Django**,
 > 🖥️ Visit: `http://localhost:8000/chat/room1/`  
 > You'll be prompted to enter a username and can chat live with others in the same room.
 
-![Chat App Demo Screenshot](your-screenshot-url-if-available)
-
 ---
 
 ## 🚀 Features
@@ -128,7 +126,7 @@ redis>=4.5
 ## 💡 Author
 
 - Issath – 
-🔗 ![GitHub Profile](https://github.com/Am-Issath)
+🔗 [GitHub Profile](https://github.com/Am-Issath)
 
 ## ⭐️ Star the Repo
 
