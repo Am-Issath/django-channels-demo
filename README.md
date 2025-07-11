@@ -127,4 +127,9 @@ redis>=4.5
 
 ## 💡 Author
 
-- Issath – ![GitHub](https://github.com/Am-Issath)
+- Issath – 
+🔗 ![GitHub Profile](https://github.com/Am-Issath)
+
+## ⭐️ Star the Repo
+
+> **If you find this helpful or inspiring, don’t forget to give it a star ⭐️**
